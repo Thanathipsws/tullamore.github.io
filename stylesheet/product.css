@@ -28,24 +28,26 @@
     background: #000000; /* Highlight color for the active button */
 }
 .product-grid {
-    text-align: center;
-    align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 15px;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
 .product-card {
-    position: relative; /* Added for positioning the category */
+    position:relative; /* Added for positioning the category */
     background: white;
     border-radius: 0px solid;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* You can adjust this for spacing */
 }
 .product-info {
     padding-left: 15px;
