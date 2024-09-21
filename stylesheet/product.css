@@ -1,0 +1,119 @@
+.category-list {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.category-container {
+    display: flex;
+}
+.category-button {
+    padding: 10px 15px;
+    border-radius: 1px solid;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 0.5s;
+    border-color: #000000;
+    border-style:outset;
+    font-family: monospace;
+    font-weight: bolder;
+    margin: 5px 3px; /* Add some space between buttons */
+}
+.category-button:hover {
+    color: white;
+    background: #000000;
+}
+.category-button.active {
+    color: white;
+    background: #000000; /* Highlight color for the active button */
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.product-card {
+    position:relative; /* Added for positioning the category */
+    background: white;
+    border-radius: 0px solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* You can adjust this for spacing */
+}
+.product-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.product-image {
+    width: 180px;
+    height: 200px; /* Set a fixed height for uniformity */
+    overflow: hidden; /* Hide overflow */
+    box-sizing:content-box; /* Include padding in width */
+}
+
+.product-image img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover; /* Ensure image covers the area */
+    display: block; /* Prevents bottom space */
+}
+.product-title {
+    text-align: left;
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    margin: 10px 0 5px;
+}
+.product-tag {
+    text-align: left;
+    font-family:sans-serif;
+    color: gray;
+    font-size: 15px;
+    margin: 5px 0;
+}
+.product-size {
+    text-align: left;
+    font-family:sans-serif;
+    color: gray;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.product-price {
+    text-align: left;
+    font-family:serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 5px 0;
+}
+.sold {
+    text-align: left;
+    font-family:sans-serif;
+    color: gray;
+    font-size: 10px;
+    margin: 5px 0;
+}
+.shop-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* transition: background 0.5s; */
+}
+.shop-button:hover {
+    /* background: #000000; */
+    color: gray;
+    font-style: initial;
+}
