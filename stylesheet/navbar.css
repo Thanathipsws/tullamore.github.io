@@ -50,6 +50,10 @@ body {
         width: 100%;
         background-color: #ffffff;
         color: #000000;
+        padding-bottom: 10px;
+    }
+    .nav-links li {
+        margin: 5px;
     }
   
     .nav-links.active {
