@@ -5,7 +5,7 @@
     text-align: center;
     padding: 20px; /* Adjust as needed for spacing */
     width: auto; /* Full width */
-    min-height: 400px;
+    min-height: 500px;
     margin: 0 auto; /* Center the banner */
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Stack children vertically */

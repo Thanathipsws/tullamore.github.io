@@ -31,7 +31,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
-    padding: 0 20px;
+    padding: 0 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -75,6 +75,13 @@
     font-family:sans-serif;
     color: gray;
     font-size: 15px;
+    margin: 5px 0;
+}
+.product-size {
+    text-align: left;
+    font-family:sans-serif;
+    color: gray;
+    font-size: 12px;
     margin: 5px 0;
 }
 .product-price {
