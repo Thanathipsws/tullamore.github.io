@@ -9,7 +9,7 @@
 .product-container {
     display: flex;
     overflow: hidden;
-    max-width: 1200px; /* Adjust the width as needed */
+    max-width: 1400px; /* Adjust the width as needed */
     border: 1px solid #ccc;
     margin: 0 auto;
 }
@@ -21,8 +21,10 @@
 }
 
 .product-item img {
-    width: 100px; /* Adjust the image size */
+    overflow-clip-margin: block;
+    max-width: 100%;
     height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
 }
 
 .product-name {

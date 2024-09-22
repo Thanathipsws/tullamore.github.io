@@ -1,3 +1,5 @@
+@font-face { font-family: Nunito; src: url('Nunito-VariableFont_wght.ttf'); }
+@font-face { font-family: NunitoB; src: url('Nunito-Bold.ttf'); }
 .category-list {
     margin-bottom: 20px;
     padding-top: 20px;
@@ -15,7 +17,7 @@
     transition: background 0.5s;
     border-color: #000000;
     border-style:outset;
-    font-family: monospace;
+    font-family: Nunito;
     font-weight: bolder;
     margin: 5px 3px; /* Add some space between buttons */
 }
@@ -70,35 +72,35 @@
 }
 .product-title {
     text-align: left;
-    font-family:sans-serif;
+    font-family: Nunito;
     font-weight: normal;
     font-size: 17px;
     margin: 10px 0 5px;
 }
 .product-tag {
     text-align: left;
-    font-family:sans-serif;
+    font-family: Nunito;
     color: gray;
     font-size: 15px;
     margin: 5px 0;
 }
 .product-size {
     text-align: left;
-    font-family:sans-serif;
+    font-family: Nunito;
     color: gray;
     font-size: 12px;
     margin: 5px 0;
 }
 .product-price {
     text-align: left;
-    font-family: sans-serif;
+    font-family: Nunito;
     color: rgb(0, 0, 0);
     font-size: 15px;
     margin: 5px 0;
 }
 .sold {
     text-align: left;
-    font-family:sans-serif;
+    font-family: Nunito;
     color: gray;
     font-size: 10px;
     margin: 5px 0;
@@ -155,35 +157,35 @@
     }
     .product-title {
         text-align: left;
-        font-family:sans-serif;
+        font-family: Nunito;
         font-weight: normal;
         font-size: 17px;
         margin: 10px 0 5px;
     }
     .product-tag {
         text-align: left;
-        font-family:sans-serif;
+        font-family: Nunito;
         color: gray;
         font-size: 15px;
         margin: 5px 0;
     }
     .product-size {
         text-align: left;
-        font-family:sans-serif;
+        font-family: Nunito;
         color: gray;
         font-size: 12px;
         margin: 5px 0;
     }
     .product-price {
         text-align: left;
-        font-family: sans-serif;
+        font-family: Nunito;
         color: rgb(0, 0, 0);
         font-size: 15px;
         margin: 5px 0;
     }
     .sold {
         text-align: left;
-        font-family:sans-serif;
+        font-family: Nunito;
         color: gray;
         font-size: 10px;
         margin: 5px 0;

@@ -1,5 +1,5 @@
 .footer {
-    background-color: #333; /* Background color */
+    background-color: #ffffff; /* Background color */
     color: white; /* Text color */
     padding: 15px 0; /* Vertical padding */
     text-align: center; /* Center text */
@@ -11,23 +11,94 @@
     margin: 0 auto; /* Center the content */
   }
   
-  .footer-links {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 10px 0 0; /* Space above links */
-    display: flex; /* Use Flexbox for layout */
-    justify-content: center; /* Center the links */
+  /* .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
   }
   
   .footer-links li {
-    margin: 0 15px; /* Space between links */
+    margin: 0 15px;
   }
   
   .footer-links a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
-  }
+    color: white;
+    text-decoration: none;
+  } */
   
+  .footer-links {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-links li {
+    display: inline; /* Display items inline */
+    margin: 0 20px; /* Add space between icons */
+}
+.footer-links a img {
+  max-height: 30px;
+    width: auto; 
+}
   .footer-links a:hover {
     text-decoration: underline; /* Underline on hover */
   }
+
+  .footer-links-2 {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+.footer-links-2 li {
+  display: inline; /* Display items inline */
+  margin: 0 10px; /* Add space between icons */
+}
+.footer-links-2 a img {
+max-height: 30px;
+  width: auto; 
+}
+.footer-links-2 a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.copy-right {
+  list-style: none;
+  padding: 0;
+}
+
+.copy-right li {
+  display: inline;
+  margin: 0 auto;
+}
+.copy-right li p {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+.line {
+  border-top-color: gray;
+  width: 50%;
+  border-top: 1px solid;
+  border-color: gray;
+  box-sizing: border-box;
+  outline: none;
+  display: block;
+  margin: 0 auto
+}
+
+.footer-links-3 {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  padding-top: 10px;
+}
+.footer-links-3 li {
+display: inline; /* Display items inline */
+margin: 0 20px; /* Add space between icons */
+}
+.footer-links-3 a {
+  color: gray;
+}
+.footer-links-2 a:hover {
+text-decoration: underline; /* Underline on hover */
+}

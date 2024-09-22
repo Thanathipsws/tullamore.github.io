@@ -1,14 +1,17 @@
+@font-face { font-family: Nunito; src: url('Nunito-VariableFont_wght.ttf'); } 
 body {
     margin: 0;
-    font-family: monospace;
+    font-family: Nunito;
+    
   }
-  
+
+
   .navbar {
     font-size: medium;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
     background-color: #ffffff;
   }
   
@@ -30,6 +33,7 @@ body {
   .nav-links a {
     color: #000000;
     text-decoration: none;
+    padding-right: 15px;
   }
   
   .hamburger {
