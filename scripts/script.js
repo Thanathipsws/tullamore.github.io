@@ -12,9 +12,27 @@ function filterProducts(category) {
 
     products.forEach(product => {
         if (category === "all" || product.getAttribute("data-category") === category) {
-            product.style.display = "block";
+            product.style.display = "flex";
         } else {
             product.style.display = "none";
         }
+    });
+}
+
+function scrollLeft() {
+    const container = document.getElementById('productContainer');
+    container.scrollBy({
+        top: 0,
+        left: -100, // Adjust the scroll distance as needed
+        behavior: 'smooth'
+    });
+}
+
+function scrollRight() {
+    const container = document.getElementById('productContainer');
+    container.scrollBy({
+        top: 0,
+        left: 100, // Adjust the scroll distance as needed
+        behavior: 'smooth'
     });
 }

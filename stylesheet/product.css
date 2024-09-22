@@ -29,11 +29,12 @@
 }
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 15px;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 20px;
+    place-items: center;
 }
 .product-card {
     position:relative; /* Added for positioning the category */
@@ -47,15 +48,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px; /* You can adjust this for spacing */
+    padding: 0px; /* You can adjust this for spacing */
+    max-width: 180px;
 }
 .product-info {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .product-image {
     width: 180px;
-    height: 200px; /* Set a fixed height for uniformity */
+    height: auto; /* Set a fixed height for uniformity */
     overflow: hidden; /* Hide overflow */
     box-sizing:content-box; /* Include padding in width */
 }
@@ -129,16 +131,18 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        max-width: fit-content; /* You can adjust this for spacing */
+        justify-content: center;
+        align-items: center;
+        padding: 0px; /* You can adjust this for spacing */
+        max-width: 180px;
     }
     .product-info {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .product-image {
         width: 180px;
-        height: 200px; /* Set a fixed height for uniformity */
+        height: auto; /* Set a fixed height for uniformity */
         overflow: hidden; /* Hide overflow */
         box-sizing:content-box; /* Include padding in width */
     }
@@ -200,4 +204,5 @@
         color: gray;
         font-style: initial;
     }
+    
 }

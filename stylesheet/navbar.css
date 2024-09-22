@@ -24,7 +24,7 @@ body {
   }
   
   .nav-links li {
-    margin: 0 15px;
+    margin: 0 auto;
   }
   
   .nav-links a {
@@ -53,11 +53,14 @@ body {
         padding-bottom: 10px;
     }
     .nav-links li {
-        margin: 5px;
+        margin: 0px auto;
+        text-align: center;
     }
   
     .nav-links.active {
+        padding-inline-start: 0px;
         display: flex;
+        justify-content: center;
     }
   
     .hamburger {
